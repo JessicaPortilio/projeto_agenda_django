@@ -38,6 +38,14 @@ python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
 
+
+```
+python manage.py collectstatic
+```
+```
+pip install Pillow
+```
+
 ```
 # Tudo isso é feito na memória
 python manage.py shell

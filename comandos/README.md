@@ -47,6 +47,11 @@ pip install Pillow
 ```
 
 ```
+pip install faker
+```
+ 
+
+```
 # Tudo isso é feito na memória
 python manage.py shell
 from contact.models import Contact

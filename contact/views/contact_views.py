@@ -10,7 +10,8 @@ def index(request):
     print(contacts.query)
 
     context = {
-        'contacts': contacts
+        'contacts': contacts,
+        'site_title': 'Contatos - '
     }
     return render(
         request,
@@ -29,8 +30,11 @@ def contact(request, contact_id):
         Contact.objects.filter(pk=contact_id, show = True)
         )
 
+    contact_name = f'{single_contact.first_name} {single_contact.last_name} '
+
     context = {
-        'contact': single_contact
+        'contact': single_contact,
+        'site_title': contact_name
     }
     return render(
         request,

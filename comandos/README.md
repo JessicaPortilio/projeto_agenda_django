@@ -70,3 +70,8 @@ c.delete()
 
 # lembrando que isso está na memória se eu der c.save() ele salva um novo contato com todas essas informações que estão na memória
 ```
+
+
+```
+maria xMX^m9?@
+```
